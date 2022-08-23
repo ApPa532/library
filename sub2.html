@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>벌말도서관</title>
+    <link rel="stylesheet" href="./css/sub2.css">
+    <link rel="shortcut icon" href="./img/favi.ico">
+
+    <script src="./js/jquery-1.9.1.min.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <div id="pop_wrap">
+        <div id="pop">
+            <ul>
+                <li>
+
+                </li>
+                <li>
+                    <form action="#" name="notice_form">
+                        <p>
+                            <input type="checkbox" name="chkbok" value="checkbox">오늘 하루 이 창을 열지 않음 <br>
+                            <a href="javascript:closeWin()">[닫기]</a>
+                        </p>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+       
+    </script>
+     <header>
+        <div id="purple_zone">
+            <div id="custom">
+                <div class="custom_form">
+
+                    <form action="#">
+                        <select  name="library" id="library" onchange="if(this.value) window.open(this.value)";>
+                            <option selected>도서관 바로가기</option>
+                            <option value="https://lib.anyang.go.kr/seoksu/index.do">석수도서관</option>
+                            <option value="https://lib.anyang.go.kr/manan/index.do">만안도서관</option>
+                            <option value="https://lib.anyang.go.kr/samdeok/index.do">삼덕도서관</option>
+                            <option value="https://lib.anyang.go.kr/bakdal/index.do">박달도서관</option>
+                            <option value="https://lib.anyang.go.kr/pyeongchon/index.do">평촌도서관</option>
+                            <option value="#none">관양도서관</option>
+                            <option value="#none">비산도서관</option>
+                            <option value="#none">호계도서관</option>
+                            <option value="#none">어린이도서관</option>
+                            <option value="#none">벌말도서관</option>
+                            <option value="#none">작은도서관</option>
+                            <option value="#none">독서마라톤</option>
+                        </select>
+
+
+                    </form>
+
+
+                </div>
+
+
+                <div id="custom_menu">
+                    <div><a href="./login.html">로그인</a></div>
+                    <div><a href="#none">회원가입</a></div>
+                    <div><a href="#none">사이트맵</a></div>
+                    <div><a href="#none"><img width="30" src="./img/kakao.png" alt="카카오톡"></a></div>
+                    <div><a href="#none"><img width="30" src="./img/insta.png" alt="인스타그램"></a></div>
+                    <div><a href="#none"><img width="30" src="./img/face.png" alt="페이스북"></a></div>
+                    <div><a href="#none"><img width="30" src="./img/you.png" alt="유튜브"></a></div>
+                </div>
+
+            </div>
+
+            <div id="nav_wrap">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>Logo</h1>
+                    </a>
+                </div>
+
+                <nav>
+                    <div>
+                        <p><a href="./sub1.html">자료검색</a></p>
+                        <p><a href="./sub2.html">독서정보</a></p>
+                        <p><a href="./sub3.html">문화행사/참여</a></p>
+                        <p><a href="./news.html">이용안내</a></p>
+                        <p><a href="./sub4.html">도서관소개</a></p>
+                        <p><a href="#none">마이페이지</a></p>
+                        <div id="sub_wrap">
+                            <div id="wrapwrap">
+                                <div id="sub_menu_wrap">
+                                    <dl class="sub_menu">
+                                        <dt><a href="./sub1.html">소장자료검색</a></dt>
+                                        <dd><a href="#none">주제별검색</a></dd>
+                                        <dd><a href="#none">신착자료검색</a></dd>
+                                        <dd><a href="#none">정기간행물검색</a></dd>
+                                        <dd><a href="#none">비치희망도서선정</a></dd>
+                                    </dl>
+                                    <dl class="sub_menu">
+                                        <dt><a href="./sub2.html">사서추천도서</a></dt>
+                                        <dd><a href="#none">도서대출베스트</a></dd>
+                                        <dd><a href="#none">원문/학술정보</a></dd>
+                                        <dd><a href="#none">향토자료(경기도메모리)</a></dd>
+                                        <dd><a href="#none">도서관특성화</a></dd>
+                                        <dd><a href="#none">공공도서관인기도서</a></dd>
+                                        <dd><a href="#none">도서기증안내</a></dd>
+                                    </dl>
+                                    <dl class="sub_menu">
+                                        <dt><a href="./sub3.html">독서마라톤</a></dt>
+                                        <dd><a href="#none">문화행사신청</a></dd>
+                                        <dd><a href="#none">영화상영</a></dd>
+                                        <dd><a href="#none">스마트영어도서관</a></dd>
+                                        <dd><a href="#none">북스타트</a></dd>
+                                        <dd><a href="#none">견학신청</a></dd>
+                                        <dd><a href="#none">설문조사</a></dd>
+                                    </dl>
+                                    <dl class="sub_menu">
+                                        <dt><a href="./news.html">공지사항</a></dt>
+                                        <dd><a href="#none">자주하는질문</a></dd>
+                                        <dd><a href="#none">도서관이용안내</a></dd>
+                                        <dd><a href="#none">상호대차</a></dd>
+                                        <dd><a href="#none">모바일앱</a></dd>
+                                        <dd><a href="#none">스마트도서관</a></dd>
+                                        <dd><a href="#none">책배달서비스</a></dd>
+                                        <dd><a href="#none">전자도서관</a></dd>
+                                        <dd><a href="#none">도서관에바란다</a></dd>
+                                        <dd><a href="#none">분실물센터</a></dd>
+                                    </dl>
+                                    <dl class="sub_menu">
+                                        <dt><a href="#none">일반현황</a></dt>
+                                        <dd><a href="#none">조직/직원정보</a></dd>
+                                        <dd><a href="#none">도서관관련법규</a></dd>
+                                        <dd><a href="#none">찾아오시는길</a></dd>
+                                    </dl>
+                                    <dl class="sub_menu">
+                                        <dt><a href="#none">나의정보</a></dt>
+                                        <dd><a href="#none">도서이용내역</a></dd>
+                                        <dd><a href="#none">상호대차조회</a></dd>
+                                        <dd><a href="#none">관심도서목록</a></dd>
+                                        <dd><a href="#none">추천도서목록</a></dd>
+                                        <dd><a href="#none">희망도서신청조회</a></dd>
+                                        <dd><a href="#none">문화행사신청조회</a></dd>
+                                        <dd><a href="#none">견학신청조회</a></dd>
+                                        <dd><a href="#none">나의게시글조회</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </nav>
+                <button class="search openS"></button>
+                
+
+
+
+            </div>
+            <div id="search_tab">
+                
+                <div id="tab_wrap">
+
+                    <div id="tab_form">
+                        <form>
+                            <select id="search_tab_select">
+                                <option value="#none" selected>소장자료</option>
+                                <option value="#none">홈페이지</option>
+                            </select>
+
+                            <input type="text" class="text" id="search_tap_text" name="search" title="검색어입력"
+                                placeholder="검색어를 입력하세요.">
+                            <button class="search_ok">검색</button>
+                        </form>
+                        <ul>
+                            <li class="h3size">인기검색어</li>
+                            <li><a href="#none">파친코</a></li>
+                            <li><a href="#none">어린왕자</a></li>
+                            <li><a href="#none">경제</a></li>
+                            <li><a href="#none">작별인사</a></li>
+                            <li><a href="#none">전천당</a></li>
+                        </ul>
+                    </div>
+                    <button class="search closeS"></button>
+                </div>
+
+              
+          
+            </div>
+
+            
+        </div>
+    </header>
+
+    <section>
+        <div id="grayzone"></div>
+        <div id="section_wrap">
+            <aside id="side_menu">
+                <div id="side_menu_list">
+                    <div id="sml_banner">독서정보
+
+                    </div>
+                    <div id="firstsml_btn"><a href="#none;">사서추천도서</a>
+
+                    </div>
+
+                    <div class="sml_btn"><a href="#none">도서대출베스트</a></div>
+                    <div class="sml_btn"><a href="#none">원문/학술정보</a></div>
+                    <div class="sml_btn"><a href="#none">향토자료(경기도메모리)</a></div>
+                    <div class="sml_btn"><a href="#none">도서관특성화</a></div>
+                    <div class="sml_btn"><a href="#none">공공도서관 인기도서</a></div>
+                    <div class="sml_btn"><a href="#none">도서기증안내</a></div>
+
+                </div>
+            </aside>
+            <div id="section_contents_wrap">
+                <div id="section_contents">
+                    <h2>사서추천도서</h2>
+                    <div id="h2_link">
+                        <div id="from">
+                            <a href="./index.html"><img src="./img/home.png" alt="홈"></a>
+                            <p>>&nbsp; 독서정보</p>
+                            <p>> &nbsp;사서추천도서</p>
+                        </div>
+                        <div id="print">
+                            <a href="#none"><img src="./img/print.png" alt="프린터"></a>
+                            <a href="#none"><img src="./img/gi.png" alt="공유하기"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="submenu_wrap">
+                <div id="search_wrap">
+                    <div id="search_wrap2">
+                        <div id="search_wrap3">
+                            <div class="form">
+                                <form>
+                                    <select name="booksearch" id="booksearch">
+                                        <option value="#none" selected>도서명</option>
+                                        <option value="#none">저자</option>
+                                        <option value="#none">발행처</option>
+                                    </select>
+                                </form>
+                            </div>
+                            <div class="form">
+                                <form>
+                                    <input type="text" class="text" id="search_book" name="search" title="검색어입력">
+                                </form>
+                            </div>
+                            <div id="form_btn"><a href="#none">검색</a></div>
+                        </div>
+                    </div>
+
+                    <div id="search_menu">
+                        <a href="#none" class="search_on">전체</a>
+                        <a href="#none">인문</a>
+                        <a href="#none">사회</a>
+                        <a href="#none">과학</a>
+                        <a href="#none">어문학</a>
+                        <a href="#none">어린이</a>
+                    </div>
+
+                    <div class="booklist">
+                        <p>새로 나온 책</p><a href="#none">+</a>
+                    </div>
+
+                    <div class="books_pic">
+                        <div class="books"><a href="#none"><img src="./img/book1.png" alt="책"></a>
+                            <a href="#none">불편한 편의점:김호연 장편소설</a>
+                        </div>
+                        <div class="books"><a href="#none"><img src="./img/book2.png" alt="책"></a>
+                            <a href="#none">아몬드:손원평 장편소설</a>
+                        </div>
+                        <div class="books"><a href="#none"><img src="./img/book3.png" alt="책"></a>
+                            <a href="#none">파친코:이민진 장편소설</a>
+                        </div>
+                        <div class="books"><a href="#none"><img src="./img/book4.png" alt="책"></a>
+                            <a href="#none">달러구트 꿈 백화점:이미예</a>
+                        </div>
+                        <div class="books"><a href="#none"><img src="./img/book5.png" alt="책"></a>
+                            <a href="#none">달러구트 꿈 백화점2:이미예</a>
+                        </div>
+                    </div>
+
+                    <div class="booklist">
+                        <p>많이 보는 책</p><a href="#none">+</a>
+                    </div>
+
+
+                    <div class="books_pic">
+
+                        <div class="books"><a href="#none"><img src="./img/book2.png" alt="책"></a>
+                            <a href="#none">아몬드:손원평 장편소설</a>
+                        </div>
+                        <div class="books"><a href="#none"><img src="./img/book1.png" alt="책"></a>
+                            <a href="#none">불편한 편의점:김호연 장편소설</a>
+                        </div>
+                        <div class="books"><a href="#none"><img src="./img/book4.png" alt="책"></a>
+                            <a href="#none">달러구트 꿈 백화점:이미예</a>
+                        </div>
+                        <div class="books"><a href="#none"><img src="./img/book3.png" alt="책"></a>
+                            <a href="#none">파친코:이민진 장편소설</a>
+                        </div>
+
+                        <div class="books"><a href="#none"><img src="./img/book5.png" alt="책"></a>
+                            <a href="#none">달러구트 꿈 백화점2:이미예</a>
+                        </div>
+                    </div>
+
+                    <div class="booklist">
+                        <p>추천하는 책</p><a href="#none">+</a>
+                    </div>
+
+
+                    <div class="books_pic">
+
+                        <div class="books"><a href="#none"><img src="./img/book5.png" alt="책"></a>
+                            <a href="#none">달러구트 꿈 백화점2:이미예</a>
+                        </div>
+                        <div class="books"><a href="#none"><img src="./img/book2.png" alt="책"></a>
+                            <a href="#none">아몬드:손원평 장편소설</a>
+                        </div>
+                        <div class="books"><a href="#none"><img src="./img/book3.png" alt="책"></a>
+                            <a href="#none">파친코:이민진 장편소설</a>
+                        </div>
+                        <div class="books"><a href="#none"><img src="./img/book4.png" alt="책"></a>
+                            <a href="#none">달러구트 꿈 백화점:이미예</a>
+                        </div>
+
+                        <div class="books"><a href="#none"><img src="./img/book1.png" alt="책"></a>
+                            <a href="#none">불편한 편의점:김호연 장편소설</a>
+                        </div>
+                    </div>
+
+
+                    <div class="booklist">
+                        <p>시리즈</p><a href="#none">+</a>
+                    </div>
+                    <div class="books_pic">
+
+                        <div class="books"><a href="#none"><img src="./img/book1.png" alt="책"></a>
+                            <a href="#none">불편한 편의점:김호연 장편소설</a>
+                        </div>
+                        <div class="books"><a href="#none"><img src="./img/book2.png" alt="책"></a>
+                            <a href="#none">아몬드:손원평 장편소설</a>
+                        </div>
+                        <div class="books"><a href="#none"><img src="./img/book3.png" alt="책"></a>
+                            <a href="#none">파친코:이민진 장편소설</a>
+                        </div>
+                        <div class="books"><a href="#none"><img src="./img/book4.png" alt="책"></a>
+                            <a href="#none">달러구트 꿈 백화점:이미예</a>
+                        </div>
+                        <div class="books"><a href="#none"><img src="./img/book5.png" alt="책"></a>
+                            <a href="#none">달러구트 꿈 백화점2:이미예</a>
+                        </div>
+                    </div>
+
+                    <div id="sub_section_wrap">
+                        <div id="sub_section">
+                            <div id="news">
+                                <h2>공지사항<a href="#none">+</a></h2>
+                                <ul>
+                                    <li><a href="#none">경기도사이버도서관 회원 본인확인</a></li>
+                                    <li><a href="#none">2022년 1차 경기도 사이버도서관 소장도서 안내</a></li>
+                                    <li><a href="#none">2022년 상반기 경기도사이버도서관 지원 절차</a></li>
+                                    <li><a href="#none">모바일 기기에서 전자책을 어떻게 보나요?</a></li>
+                                    <li><a href="#none">희망도서 신청건 도입시기와 절차</a></li>
+                                </ul>
+                            </div>
+                            <div id="FAQ">
+                                <h2>자주하는 질문<a href="#none">+</a></h2>
+                                <ul>
+                                    <li><a href="#none">전자도서관 이용방법 안내</a></li>
+                                    <li><a href="#none">오디오북을 pc에서 다운로드 받는 방법</a></li>
+                                    <li><a href="#none">학교 연계 도서를 보고싶어요.</a></li>
+                                    <li><a href="#none">모바일 기기에서 전자책을 어떻게 보나요?</a></li>
+                                    <li><a href="#none">희망도서 신청건 도입시기와 절차</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>>
+
+        </div>
+
+
+
+
+    </section>
+
+
+    <footer>
+
+        <div id="ftcolor_gray">
+            <div id="gray_wrap">
+                <ul id="footer_btn">
+                    <li><a href="#none">개인정보처리방침</a></li>
+                    <li><a href="#none">이메일추출방지정책</a></li>
+                    <li><a href="#none">도서관련법규</a></li>
+
+                </ul>
+                <div id="footer_form">
+                    <form>
+                        <select name="family" id="family_site" onchange="if(this.value) window.open(this.value)">
+                            <option selected>관련기관 사이트</option>
+                            <option value="https://www.nl.go.kr/">국립중앙도서관</option>
+                            <option value="https://www.nlcy.go.kr/">국가전자도서관</option>
+                            <option value="#none">국립어린이청소년도서관</option>
+                            <option value="#none">국회도서관</option>
+                            <option value="#none">경기도사이버도서관</option>
+                            <option value="#none">경기도메모리</option>
+                            <option value="#none">책바다</option>
+                            <option value="#none">책나래</option>
+                            <option value="#none">책이음</option>
+                            <option value="#none">안양시청</option>
+                            <option value="#none">안양시평생교육원</option>
+                            <option value="#none">안녕,안양</option>
+                            <option value="#none">사서에게물어보세요</option>
+                            <option value="#none">국립중앙장애인도서관</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="ftcolor_white">
+
+            <div id="footer_info">
+                <p>
+                    벌말도서관&nbsp; 14062 경기도 안양시 동안구 흥안대로 434번길 19-27(평촌동)&nbsp; 전화번호:031-8045-6301~2 <br>
+                    <span>Copyright 2020. Anyang Municipal Library All Rights Reserved.</span>
+                </p>
+            </div>
+        </div>
+
+
+
+
+    </footer>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
